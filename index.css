@@ -1,13 +1,13 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .home {
     /* 
     flex-shrink: 1; */
     flex-grow: 0; /*decides how much the rest width will be distributed*/
+    flex-shrink: 5;
     flex-basis: 200px; /*Set the base width of an element*/
 }
 
@@ -15,7 +15,9 @@
     
     /* 
     flex-shrink: 1; */
-    flex-grow: 1;
+    flex-grow: 0;
+    flex-shrink: 1;
     flex-basis: 200px;
+
 }
 
