@@ -4,7 +4,16 @@
     flex-wrap: wrap;
 }
 
-.container > div {
-    width: 300px;
+.home {
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    flex-basis: 200px; /*Set the base width of an element*/
+}
+
+.logout {
+    
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    flex-basis: 200px;
 }
 
