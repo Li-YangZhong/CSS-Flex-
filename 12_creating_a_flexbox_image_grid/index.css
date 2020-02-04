@@ -11,6 +11,9 @@
     object-fit: cover; /*taking up full width and full height*/
 }
 
-.container > div {
+.container > .normal {
     flex: 1 1 150px;
+}
+.container > .big {
+    flex: 1 1 250px;
 }
