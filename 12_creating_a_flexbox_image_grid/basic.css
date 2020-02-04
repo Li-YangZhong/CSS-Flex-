@@ -1,0 +1,15 @@
+.container {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    background-color: #ffeead;
+}
+
