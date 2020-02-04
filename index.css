@@ -1,12 +1,7 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    justify-content: flex-end;
+    height: 100%;
+    align-items: stretch;
 }
 
-.home {
-    flex: 1;
-}
-.logout {
-    flex: 1;
-}
