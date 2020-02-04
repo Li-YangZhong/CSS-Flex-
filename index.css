@@ -5,15 +5,17 @@
 }
 
 .home {
-    /* flex-grow: 1;
+    /* 
     flex-shrink: 1; */
+    flex-grow: 0; /*decides how much the rest width will be distributed*/
     flex-basis: 200px; /*Set the base width of an element*/
 }
 
 .logout {
     
-    /* flex-grow: 1;
+    /* 
     flex-shrink: 1; */
+    flex-grow: 1;
     flex-basis: 200px;
 }
 
