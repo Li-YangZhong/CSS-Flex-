@@ -4,6 +4,9 @@
     justify-content: flex-end;
 }
 
-.container > .search {
-    flex: 2;
+.home {
+    flex: 1;
+}
+.logout {
+    flex: 1;
 }
