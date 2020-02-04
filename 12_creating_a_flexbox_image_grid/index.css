@@ -2,10 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+
 }
 
 .container > div > img {
-    width: 150px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*taking up full width and full height*/
 }
 
+.container > div {
+    flex: 1 1 150px;
+}
