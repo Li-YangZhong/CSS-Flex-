@@ -5,10 +5,11 @@
 }
 
 .container > div {
-    /* flex: 1; */
-    width: 33.333%;
+    flex: 1;
 
     /* flex-grow, flex-shrink, flex-basis */
 }
 
-/**/
+.container > .search {
+    flex: 2;
+}
