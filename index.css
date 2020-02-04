@@ -4,12 +4,6 @@
     justify-content: flex-end;
 }
 
-.container > div {
-    flex: 1;
-
-    /* flex-grow, flex-shrink, flex-basis */
-}
-
 .container > .search {
     flex: 2;
 }
